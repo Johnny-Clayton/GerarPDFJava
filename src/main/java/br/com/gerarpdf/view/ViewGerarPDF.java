@@ -5,16 +5,16 @@
  */
 package br.com.gerarpdf.view;
 
-import com.itextpdf.text.Document;
-import com.itextpdf.text.DocumentException;
-import com.itextpdf.text.Paragraph;
-import com.itextpdf.text.pdf.PdfWriter;
-
-import java.awt.*;
+import java.awt.Desktop;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
+
+import com.itextpdf.text.Document;
+import com.itextpdf.text.DocumentException;
+import com.itextpdf.text.Paragraph;
+import com.itextpdf.text.pdf.PdfWriter;
 
 /**
  *
@@ -98,9 +98,7 @@ public class ViewGerarPDF extends javax.swing.JFrame {
         } catch (IOException ex) {
             System.out.println("Error:"+ex);
         }
-        
-        
-        
+
     }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
